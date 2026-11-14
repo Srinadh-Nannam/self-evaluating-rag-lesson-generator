@@ -1,0 +1,45 @@
+{
+  "topic": "Introduction to RAG (Retrieval-Augmented Generation)",
+  "status": "accepted",
+  "max_retries": 2,
+  "attempts": [
+    {
+      "attempt": 1,
+      "verdict": "accepted",
+      "score": 10,
+      "issues": [],
+      "generation_mode": "local_fallback"
+    }
+  ],
+  "final_evaluation": {
+    "score": 10,
+    "verdict": "accepted",
+    "summary": "Hard rubric: 17/17 checkpoints passed. Acceptance requires every mandatory checkpoint to pass.",
+    "checks": {
+      "title_and_overview": true,
+      "learning_objectives": true,
+      "beginner_friendly_explanation": true,
+      "practical_example": true,
+      "practice_and_assessment": true,
+      "summary": true,
+      "coherent_teaching_flow": true,
+      "adequate_depth": true,
+      "defines_rag": true,
+      "explains_why_rag": true,
+      "explains_documents_and_chunking": true,
+      "explains_embeddings": true,
+      "explains_vector_database": true,
+      "explains_retrieval": true,
+      "explains_generation_and_grounding": true,
+      "step_by_step_workflow": true,
+      "traditional_ai_comparison": true
+    },
+    "passed_checkpoints": 17,
+    "total_checkpoints": 17,
+    "issues": [],
+    "suggested_improvements": [],
+    "evaluation_method": "deterministic_hard_rubric"
+  },
+  "generation_mode": "local_fallback",
+  "note": "Generated and evaluated locally. No API key required."
+}
